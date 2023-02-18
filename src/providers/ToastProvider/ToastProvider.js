@@ -1,4 +1,4 @@
-import { createContext, useCallback, useEffect, useState } from "react";
+import { createContext, useCallback, useState } from "react";
 import { useEscapeKey } from "../../hooks/useEscapeKey";
 
 export const ToastContext = createContext();
